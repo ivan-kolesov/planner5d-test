@@ -1,0 +1,23 @@
+@import "./common/reset.css";
+@import "./common/theme.css";
+@import "./common/header.css";
+
+.container {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+.container .header {
+    padding: 10px;
+    flex: 0 1 auto;
+}
+.container .header .statistics {
+    margin: 0 0 24px;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0;
+    color: #828282;
+}
+.container .canvas {
+    flex: 1 1 auto;
+}
